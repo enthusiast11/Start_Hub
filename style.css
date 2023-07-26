@@ -1,0 +1,962 @@
+.noscroll{
+    min-height: 100%;
+    overflow: hidden;
+    
+  
+}
+.support{
+    background-color: #F2F8FF;
+}
+.row{
+    margin: 0;
+}
+a, a::after, a::before {
+    list-style-type: none !important;
+    text-decoration: none !important;
+    
+}
+.animation{
+    height: 500px;
+    width: 100%;
+}
+ul,
+li{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+html,
+body{
+    background-color: transparent;
+    background: #F2F8FF;
+    margin: 0;
+    height: 100%;
+    font-family: 'Inter';
+    font-style: normal;
+    color: #000;
+   
+    
+}
+._container{
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 1240px;
+    margin: 0px auto;
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.caption{
+    margin-top: 47px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 77px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    word-wrap: break-word; 
+    color: #090909;
+    background-color: #F2F8FF;
+
+}
+.subtitle{
+    
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    text-align: center;
+    margin-top: 23px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #090909;
+    
+}
+
+.two__butt{
+    display: flex;
+    justify-content: center;
+    margin-top: 36px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.butt__black{
+    margin-right: 20px;
+    padding: 13px 20px 13px 20px;
+    background: #090909;
+    border-radius: 5px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: white;
+   
+}
+
+.butt__white{
+    padding: 13px 20px 13px 20px;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #090909;
+
+    
+}
+.but{
+    width: 120px;
+    margin-top: 155px;
+    border-radius: 5px;
+    padding: 8px 13px 8px 13px;
+    margin-right: auto;
+    margin-left: auto;
+    
+    text-align: center;
+}
+.col-xl-4,
+.col-md-6,
+.col-xs-12{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+h2{
+    word-wrap: break-word;
+}
+
+
+/* -------------------------------------------Шапка------------------------------------------------------------------- */
+.header{
+    position: fixed;
+    z-index: 1000;
+    top:0px; 
+    left: 0;
+    right: 0;
+    background: #F2F8FF;
+   
+   
+    
+}
+
+
+.header__container{
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.header__menu{
+    display: flex;
+    align-items: center;
+}
+.header__about{
+    
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    
+}
+.header__about a{
+    padding-right: 40px;
+    color: #000000;
+}
+
+.menu__login{
+    padding-right: 10px;
+    color: #000;
+ }
+
+.menu__list{
+    display: flex;
+    height: 72px;   
+}
+.menu__item{
+    width: 120px;
+    margin:16px 0px 16px 0px;
+    border: 1px solid #E0E0E0;
+    border-radius: 5px;
+    background-color:#1B1B1B;;   
+   
+}
+.menu__link {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 12px;
+    padding: 14px 20px 14px 20px;
+
+
+    display: flex;
+    
+    text-align: center;
+
+    color:#FFFFFF; 
+}
+
+@media screen  and (max-width: 780px){
+    .header__about{
+        display: none;
+    }
+  
+
+}
+@media screen and (max-width: 375px) {
+    .header__container{
+        display: block;
+        text-align: center;
+        padding-top: 20px;
+    }
+    .header__menu{
+        display: block;
+    }
+    .menu__list{
+       
+        margin-right: auto;
+        margin-left: auto;
+        margin-bottom: 0;
+    }
+    .menu__item{
+        margin-right: auto;
+        margin-left: auto;
+    }
+  
+
+    
+}
+    
+/* -------------------------------------------Черная африканка------------------------------------------------------------------- */
+.meet__container{
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1240px;
+    
+    background-color: #F2F8FF;
+}
+.meet__but{
+    color: white;
+    background: #3B66FF;
+}
+.meet__but a{
+    color: #FFFFFF;
+}
+.meet__photo{
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1240px;
+    position: relative;
+}
+
+.blueWhite{
+    position: absolute;
+    top: 400px;
+    left: 50px;
+    z-index: 10;
+    filter: drop-shadow(0px 6px 6px rgba(0, 0, 0, 0.1));
+
+}
+.feat__but{
+    color: white;
+}
+.priceWave{
+    position: absolute;
+    top: 10px;
+    left: 830px;
+    z-index: 10;
+    filter: drop-shadow(0px 6px 6px rgba(0, 0, 0, 0.1));
+
+}
+.firstGroup{
+    margin-top: 89px;
+    border-radius: 30px;
+    max-width:100%;
+    height:auto;
+}
+.FG{
+    display: flex;
+    justify-content: center;
+
+}
+.greenWhite{
+    position: absolute;
+    top: 550px;
+    left:  850px;
+}
+@media screen and (max-width:1240px) {
+    .greenWhite{
+        display: none;
+    }
+    .priceWave{
+        position: static;
+        max-width:100%;
+        height:auto;     
+        
+    }
+    .price{
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+    }
+    .blueWhite{
+        display: none;
+    }
+
+
+    
+}
+@media screen and (max-width: 768px) {
+    .meet__but{
+        margin-top: 175px;
+    }
+}
+
+
+.meet__platforms{
+    margin-top: 114px;
+    height: 44px;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.meet__platforms div:nth-child(1){
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: #000000;
+}
+.row img{
+    margin: auto;
+    
+}
+@media screen and (max-width: 1200px){
+    .meet__platforms div{
+        margin-top: 20px;
+    }
+}
+.feat__but{
+    background: #EE4346;
+    border-radius: 5px;
+}
+.feat__but a{
+    color: #FFFFFF;
+}
+@media screen and (max-width: 768px){
+    .feat__but{
+        margin-top: 500px;  
+    }
+}
+
+/* -------------------------------------------Женщина в желтом кардигане------------------------------------------------------------------- */
+
+
+.woman {
+    background: #090909;
+    
+}
+.woman__conatainer {
+    margin-top: 20px;
+    padding: 98px 85px 100px 67px;
+    position: relative;
+    display: flex;
+    
+}
+
+
+.woman__stock img:nth-child(2) {
+    position: absolute;
+    top: 502px;
+    left: 242px;
+}
+.woman__gen {
+    padding-left: 109px;
+}
+.woman__gen h2{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 66px;
+
+    color: #FFFFFF;
+    padding-left: 10px;
+}
+.prod__but {
+    background: #F4B52B;
+    margin: 0;
+    margin-bottom: 33px;
+    margin-left: 10px;
+    color: white;
+}
+
+
+.subtitle__black {
+    color: #FFFFFF;
+    text-align: left;
+    padding-left: 10px;
+}
+
+.woman__in{
+    display: flex;
+}
+.woman__in p {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 197.02%;
+    color: #FFFFFF;
+    padding-left: 27px;
+}
+.woman__crutch{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    
+
+    color: #FFFFFF;
+    padding-left: 81px;
+}
+
+@media screen and (max-width: 898px){
+    .YW{
+        display: flex;
+        justify-content: center;
+    }
+    .yellow{
+        max-width:100%;
+        height:auto;
+    }
+    
+    .woman__stock img:nth-child(2){
+        display: none;
+     }
+    .woman__conatainer{
+        display: block;       
+       
+    }
+    .prod__but{
+        margin: auto;
+        margin-top: 20px;
+    }
+    .woman__gen{
+        padding-left: 0;
+    }
+    .woman__gen h2{
+        text-align: center;
+    }
+    .subtitle{
+        text-align: center;
+    }
+}
+@media screen and (max-width: 375px) {
+    .woman__conatainer{
+        padding: 15px;
+    }
+    .woman__gen h2{
+        word-wrap: break-word;
+    }
+
+    
+}
+/* -------------------------------------------Регистрация------------------------------------------------------------------- */
+.gs__but {
+    margin: auto;
+    width: 13%;	
+    background: #4FC553;;
+    border-radius: 5px;
+    margin-top: 89px;
+}
+.gs__but a{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.white__chart{
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.white__ch{
+    width: 60%;
+    height: auto;
+}
+.white__co{
+    padding: 10px;
+    height: 635px;
+    background: #FBFBFB;
+    border-radius: 20px;
+    padding-top: 53.3px;
+}
+.white__c{
+    height: 100%;
+    background: #FFF;
+    border-radius: 20px 20px 0px 0px;
+    margin: 0px 30px 0px 30px;
+    
+
+}
+.portfolio__p{
+    color: #595959;
+    text-align: center;
+
+}
+.portfolio__price{
+    color: #090909;
+    font-size: 40px;
+    text-align: center;
+    padding-top: 14.3px;
+
+}
+.portfolio__value{
+    display: flex;
+   
+    justify-content: space-around;
+    margin: 27.3px 15px 15px 15px;
+}
+
+.portfolio__value div:nth-child(1){
+    width: 30px;
+	height: 30px;
+	background: #FF4545;
+	border-radius: 15px;
+    padding-left: 8px;
+}
+.portfolio__value div:nth-child(3){
+    width: 30px;
+	height: 30px;
+	background: #2A66FF;
+	border-radius: 15px;
+    padding-left: 8px;
+}
+.portfolio__value :nth-child(2){
+    
+    margin-right: 26px;
+
+}
+.portfolio__text{
+    color: #595959;
+}
+.white__but {
+    padding-left: 15px;
+    padding-right: 15px;
+    background: #2A66FF; 
+    color: #FFF;
+    width: 93%;
+    margin: 13.2px 18.5px 34.9px 18.3px;
+    
+}
+.white__l{
+    
+    display: flex;
+    justify-content: space-between;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    
+   
+}
+    
+.logo img {
+    
+    margin: 0;
+    width: 57px;
+    height: 57px;
+    border-radius: 25%;
+
+}
+.lg{
+    
+    align-items: center;
+    text-align: left;
+    padding-left: 13.5px;
+    
+}
+.lg p:nth-child(1) {
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 15px;
+
+}
+.lg p:nth-child(2) {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 11px;
+    color: #A3A3A3;
+    margin: auto
+}
+.get__but {
+    margin: 15.5px 15px 15.5px 0px;
+    align-items: center;
+    
+    width: 70px;
+    background-color:  #2A66FF;
+    border-radius: 50px ;
+    color: #FFFFFF;
+    padding: 7.5px 5.8px 9px 9.5px;
+}
+.wl__paragraph p {
+    margin-bottom: 15px;
+}
+
+.wl {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.enter{
+    margin-top: 10px;
+    overflow: hidden;
+    width: 93%;
+    padding: 18.75px 165.92px 20.41px 16.23px;
+    border: 1px solid #E0E0E0;
+    border-radius: 10px ;
+    box-shadow: inset 0px 2px 4px rgba(0, 0, 0, 0.04) ;
+    
+}
+.enter:focus{
+    border-radius: 10px ;
+    box-shadow: inset 0px 2px 4px rgba(0, 0, 0, 0.04) ;
+    outline: -webkit-focus-ring-color auto 0px;
+  
+}
+.wl__email {
+   
+    margin-bottom: 9.3px;
+
+}
+
+
+.sign__but {
+    margin-top: 17px;
+    margin-bottom: 34.9px;
+    background: #FDB52A;
+    color: #000;
+    width: 93%;
+    
+}
+.white__stat {
+    margin-bottom: 10px;
+}
+
+.portfolio__stat{
+    margin: auto;
+    width: 70%;
+}
+
+@media screen and (max-width:1200px) {
+    .white__portfolio {
+        margin: auto;
+    }
+}
+@media screen and (max-width:257px) {
+    .white__l{
+        display: block;
+    }
+    .get__but{
+        margin-top: 15px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+           
+    
+    
+}
+/* -------------------------------------------Мужчина в белой рубашке------------------------------------------------------------------- */
+
+
+.photo__container {
+    position: relative;
+    display: flex;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.white__text  h2{
+    word-wrap: break-word;
+}
+.ins__but {
+    background: #0082F0;
+    margin: 0;
+    margin-bottom: 33px;
+    margin-top: 68px;
+    color: white;
+    
+}
+
+.caption {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 66px;
+
+    color: #000;
+    
+}
+.photo__subtitle {
+    color: #090909;
+    text-align: left;
+    
+}
+
+.photo__nerby{
+    display: flex;
+}
+.photo__nerby:nth-child(1) {
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 58px;
+    color: #090909;
+    justify-content: center;
+
+}
+
+.photo__procentF {
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 58px;
+    color: #F70001;
+}
+.photo__plusF {
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 58px;
+    color: #4FC553;
+}
+.photo__plus {
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 58px;
+    color: #F7B702;
+}
+.photo__procent {
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 58px;
+    color: #0082F0;
+}
+.photo__bot{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    color: #090909;
+}
+.green {
+    position: absolute;
+    
+    top: 44px;
+    right: 473px;
+}
+.blue {
+    position: absolute;
+    top: 565px;
+    right:  450px;
+}
+@media screen and (max-width: 936px){
+    .blue {
+        display: none;
+    }
+    .green {
+        display: none;
+    }
+    .photo__container{
+        display: block;
+    }
+    .photo__red{
+        display: flex;
+        justify-content: center;
+    }
+    .red{
+        min-width: 100%;
+        height: auto;
+    }
+}
+
+/* -------------------------------------------Ребята в кастюмах------------------------------------------------------------------- */
+
+.men__table{
+    background: #FFF;
+    border-radius: 50px ;
+    margin: 20px 15px 20px 15px;
+    padding: 0;
+}
+
+.men__tables{
+    justify-content:space-evenly;
+    display: flex;
+}
+
+.our__but {
+    background: #4FC553;
+    color: white;
+}
+
+.men__i{
+    min-width: 100%;
+    height: auto;
+    border-radius: 30px 30px 0px 0px;
+}
+
+.men__img {
+    display: flex;
+    justify-content: center;
+    
+}
+.mеn__inform {
+    
+}
+.men__date {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    margin:14px 73px 0px 20px;
+    
+
+}
+.men__duty {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: #F7402E;
+    padding-top: 4px;
+    margin:0px 73px 0px 20px;
+}
+.men__explanation {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    padding-top: 12px;
+    margin:0px 73px 20px 20px;
+
+}
+
+
+/* -------------------------------------------Подвал------------------------------------------------------------------- */
+
+
+
+
+
+.bottomer {
+    background-color: #262626;
+    background-size: cover;
+     width: 100%; 
+ }
+
+ 
+ .bottomer__container .row{
+    margin: 0;
+ }
+ 
+ .bottomer__logo {
+    width: 190.77px;
+    height: 19.69px;
+    padding: 0px 0px 40px 0px;
+     
+ }
+
+ .bottomer__menu {
+    display: flex;
+    padding-top: 101px;
+    padding-right: 20px;
+ 
+ }
+ .bottomer__lor {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+
+    color: #FFFFFF;
+}
+
+.bottomer__left{
+    padding-top: 0;
+}
+
+ .bottomer__sum  {
+    padding: 17px 0px 55px 0px;
+    margin-right: 12px;
+ 
+ }
+ .bottomer__sum img{
+    height: 24px;
+    width: 24px;
+    margin-right: 6px;
+ }
+ .bottomer__partner {
+    margin: 0;
+ }
+ .bottomer__partner p{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 31px;
+    
+    
+    color: #FFFFFF;
+    padding-bottom: 23px;
+ 
+ }
+ .bottomer__city  {
+    display: flex;
+    flex-direction: column;
+ }
+ .bottomer__city a{
+    padding-bottom: 23px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 31px;
+     
+     
+    color: #FFFFFF;
+ 
+ }
+ .bottomer__line {
+     height: 1px;
+     background: #FFFFFF;
+     mix-blend-mode: normal;
+     opacity: 0.4;
+ }
+ .bottomer__icons {
+     display: flex;
+     justify-content: center;
+     
+ }
+ .bottomer__icons img{
+     padding: 41px 40px 39px 0px;
+     width: 120px;
+     height: 40px;
+ }
+ 
+ .bottomer__bot  {
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 13px;
+
+    color: #FFFFFF;
+ }
+@media screen and (max-width:962px) {
+   .bottomer__left,
+   .bottomer__city,
+   .bottomer__partner{
+    padding-left: 15px;
+   }
+}
